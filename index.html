@@ -250,44 +250,41 @@
     <!--    Contact-->
     <section id="contact">
         <div class="container">
-            <h1 class="text-center">Contactez-nous</h1>
-            <h6 class="text-center">Posez vos questions grâce au formulaire !</h6>
-            <form class="container mx-auto w-50">
-                <div class="ms-5 me-5">
-                    <label class="form-label">Votre adresse mail :</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
-                        <input type="text" class="form-control" placeholder="ex: clement@exemple.com"
-                               aria-label="ex: clement@exemple.com"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <label class="form-label">Votre nom :</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon2"><i class="bi bi-person"></i></span>
-                        <input type="text" class="form-control" placeholder="ex: Clement"
-                               aria-label="ex: Clement"
-                               aria-describedby="basic-addon1">
-                    </div>
-                    <label class="form-label">Quelle est le thème de votre question ?</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3"><i class="bi bi-chat-dots"></i></span>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Contenu de l'abonnement</option>
-                            <option value="1">Offre de l'abonnement</option>
-                            <option value="2">Durée de l'abonnement</option>
-                            <option value="3">Quelle abonnement choisir ?</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                  placeholder="Votre question..."></textarea>
-                    </div>
-                    <div>
-                        <a href="#"
-                           class="btn btn-secondary d-grid col-2 mx-auto">Envoyer</a>
-                    </div>
+            <h1 class="text-center">Contactez-nous !</h1>
+            <p class="text-center">Posez vos questions grâce au formulaire !</p>
+            <form class="container mx-auto w-75">
+            <div class="container text-center">
+                <p class="text-start">Votre adresse mail :</p>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                    <input type="text" class="form-control" placeholder="ex: clement@exemple.com"
+                           aria-label="ex: clement@exemple.com"
+                           aria-describedby="basic-addon1">
                 </div>
+                <p class="text-start">Votre nom :</p>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2"><i class="bi bi-person"></i></span>
+                    <input type="text" class="form-control" placeholder="ex: Clement"
+                           aria-label="ex: Clement"
+                           aria-describedby="basic-addon1">
+                </div>
+                <p class="text-start">Quel est le thème de votre question ?</p>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon3"><i class="bi bi-chat-dots"></i></span>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Contenu de l'abonnement</option>
+                        <option value="1">Offre de l'abonnement</option>
+                        <option value="2">Durée de l'abonnement</option>
+                        <option value="3">Quelle abonnement choisir ?</option>
+                    </select>
+                </div>
+                <div class="form-floating mt-5">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                    <label for="floatingTextarea2">Votre question...</label>
+                </div>
+                <input type="radio" class="btn-check " name="options" id="option1" autocomplete="off">
+                <label class="btn btn-secondary mt-3" for="option1">Envoyer</label>
+            </div>
             </form>
         </div>
     </section>
